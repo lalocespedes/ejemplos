@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Formulario</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url("https://vuelosenglobo.mx/wp-content/uploads/2015/02/tequila-jalisco-globos-aerostaticos.png");
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h1>Subir Imagen a Galeria</h1>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-12">
+                <form>
+                    <!--inicio-->
+                    <div class="col-md-3 col-md-offset-2">
+
+                        <label for="">Usuario</label>
+                        <div class="input-group" style="padding-top: 15px;">
+                            <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user"></i></span>
+                            <input type="text" class="form-control input-lg" placeholder="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-2">
+
+                        <label for="">Contraseña</label>
+                        <div class="input-group" style="padding-top: 15px;">
+                            <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                            <input type="password" class="form-control input-lg" placeholder="Contraseña" aria-describedby="basic-addon1">
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+
+
+        <!--textarea image-->
+        <div class="row" style="padding-top:15px;">
+            <div class="col-md-12">
+                <div class=" col-md-8 col-md-offset-2">
+                    <div class="form-group">
+                    <label for="exampleInputEmail1">Titulo De La Imagen</label>
+                    <div class="input-group" style="padding-top: 15px; ">
+                        <span class="input-group-addon" id="basic-addon1"><i class="fa fa-etsy"></i></span>
+                        <textarea class="form-control input-lg" rows="1" placeholder="Titulo"></textarea>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            <!--end textarea image-->
+
+            <div class="col-md-8 col-md-offset-2">
+                <div class="form-group" style="padding-top: 15px; ">
+                    <label for="exampleInputEmail1">Comentarios</label>
+                    <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1"><i class="fa fa-comment"></i></span>
+                        <textarea class="form-control input-lg" rows="3" placeholder="Notas"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+                <div class="form-group" style="padding-top: 15px; ">
+                    <label for="exampleInputFile">Cargar Archivo</label>
+                    <p><input type="file" id="exampleInputFile"></p>
+                    <p class="help-block">Ejemplo: Paisaje1.jpg</p>
+                    <div class="checkbox">
+                        <label>
+                        <input type="checkbox"> Acepto los terminos y condiciones
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-info">Cargar Imagen <i class="fa fa-folder" aria-hidden="true" ></i> </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </form>
+
+
+</body>
+
+</html>
