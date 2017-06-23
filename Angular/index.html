@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="alex">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        
+</head>
+
+<body>
+
+    <div class="row">
+        
+
+        <div class=" col-md-2 bg-success">
+
+            
+            <ul class="list-group text-center">
+                <li class="list-group-item"><a ui-sref="index" ui-sref-active="active">Inicio</a></li>
+                <li class="list-group-item"><a ui-sref="perforadoras" ui-sref-active="active">Perforadoras</a></li>
+                <li class="list-group-item"><a ui-sref="galeria" ui-sref-active="active">Galeria</a></li>
+                <li class="list-group-item"><a ui-sref="formulario" ui-sref-active="active">Formulario</a></li>
+                <li class="list-group-item"><a ui-sref="about" ui-sref-active="active">Acerca De</a></li>
+         
+            </ul>        
+            
+        </div>
+        
+
+        <div class="col-md-10 bg-info">
+            <ui-view></ui-view>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+    <script src="alex.js"></script>
+</body>
+
+</html>
