@@ -45,10 +45,22 @@ myApp.config(function($stateProvider) {
     url: '/perforadoras/hidraulica3',
     templateUrl: 'RN-300.html'
   }
+  var neumatica1State = {
+    name: 'neumatica1',
+    url: '/perforadoras/neumatica1',
+    templateUrl: 'RN-250X.html'
+  }
+  var neumatica2State = {
+    name: 'neumatica2',
+    url: '/perforadoras/neumatica2',
+    templateUrl: 'RN-S83FX.html'
+  }
 
   $stateProvider.state(hidraulica1State);
   $stateProvider.state(hidraulica2State);
   $stateProvider.state(hidraulica3State);
+  $stateProvider.state(neumatica1State);
+  $stateProvider.state(neumatica2State);
   $stateProvider.state(indexState);
   $stateProvider.state(aboutState);
   $stateProvider.state(galeriaState);
